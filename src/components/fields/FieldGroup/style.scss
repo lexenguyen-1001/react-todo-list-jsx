@@ -1,0 +1,29 @@
+.form-group {
+  &__label {
+    display: block;
+    margin-bottom: 5px;
+
+    color: var(--black-2-color);
+
+    &.required::after {
+      content: "*";
+      padding-left: 2px;
+
+      color: var(--red-color);
+    }
+  }
+
+  &__message {
+    margin-top: 5px;
+
+    font-weight: 400;
+    font-size: 14px;
+
+    color: var(--red-color);
+
+    &::before {
+      content: "*";
+      padding-right: 5px;
+    }
+  }
+}

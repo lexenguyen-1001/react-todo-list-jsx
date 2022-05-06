@@ -1,0 +1,28 @@
+.btn {
+  padding: 8px 14px;
+
+  background: transparent;
+
+  font-weight: 700;
+  font-size: 24px;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+
+  &--contained {
+    color: var(--white-color);
+
+    &.primary {
+      background-color: var(--primary-color);
+    }
+  }
+
+  &--outlined {
+    background-color: transparent;
+
+    &.primary {
+      color: var(--primary-color);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.text-field {
+  width: 100%;
+  padding: 10px 8px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  outline: none;
+  transition: all linear 0.25s;
+
+  &:focus {
+    padding: 10px;
+    border-color: var(--primary-color);
+  }
+}
